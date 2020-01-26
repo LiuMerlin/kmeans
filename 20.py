@@ -14,7 +14,7 @@ kmeans = KMeans(n_clusters=3)
 min_max_scaler=preprocessing.MinMaxScaler()
 train_x=min_max_scaler.fit_transform(train_x)
 #标准化
-ss=preprocessing.StandardScaler()
+# ss=preprocessing.StandardScaler()
 # train_x=ss.fit_transform(train_x)
 # kmeans算法
 kmeans.fit(train_x)
